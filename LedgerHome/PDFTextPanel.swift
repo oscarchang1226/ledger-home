@@ -16,6 +16,9 @@ struct PDFTextPanel: View {
                 LazyVStack(alignment: .leading, spacing: 20) {
                     ForEach(pages) { page in
                         VStack(alignment: .leading, spacing: 8) {
+                            Text("Page \(page.pageNumber)")
+                                .font(.headline)
+
                             Text(page.extractionMethod)
                                 .font(.caption)
                                 .foregroundStyle(.secondary)
@@ -28,7 +31,8 @@ struct PDFTextPanel: View {
                             ).isEmpty {
                                 Text(
                                     "No text was extracted from this page. "
-                                    + "It may be blank, or its text may not be recognizable."
+                                    + "It may be blank, or its text may "
+                                    + "not be recognizable."
                                 )
                                 .foregroundStyle(.secondary)
                             } else {

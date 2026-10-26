@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		FDDEB003308E93B3008F8AC0 /* LedgerHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedgerHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDEB029309006DF008F8AC0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -30,6 +31,7 @@
 		FDDEAFFA308E93B3008F8AC0 = {
 			isa = PBXGroup;
 			children = (
+				FDDEB029309006DF008F8AC0 /* .gitignore */,
 				FDDEB005308E93B3008F8AC0 /* LedgerHome */,
 				FDDEB004308E93B3008F8AC0 /* Products */,
 			);

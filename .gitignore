@@ -22,5 +22,9 @@ xcuserdata/
 timeline.xctimeline
 playground.xcworkspace
 
-# Local financial-document experiments
+# IDE
+.idea/
+.junie/
+
+# Local document experiments
 /Scratch/
